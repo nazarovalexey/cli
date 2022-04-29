@@ -1,0 +1,376 @@
+12262 13:16:28 execve("./clish", ["./clish", "-x", "../xml-examples/clish"], 0x7ffdfe65f5c0 /* 17 vars */) = 0
+12262 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+12262 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/lib/x86_64-linux-gnu/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 3
+12262 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+12262 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+12262 13:16:28 open("/dev/tty", O_RDWR|O_NONBLOCK) = 3
+12262 13:16:28 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+12262 13:16:28 getcwd("/home/admin1/klish-2.1.3/bin", 4096) = 29
+12262 13:16:28 open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+12262 13:16:28 open("./clish", O_RDONLY) = 3
+12262 13:16:28 stat("./clish", {st_mode=S_IFREG|0755, st_size=6274, ...}) = 0
+12264 13:16:28 open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+12264 13:16:28 +++ exited with 0 +++
+12263 13:16:28 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12264, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+12263 13:16:28 +++ exited with 0 +++
+12262 13:16:28 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12263, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+12265 13:16:28 open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+12265 13:16:28 +++ exited with 0 +++
+12262 13:16:28 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12265, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+12268 13:16:28 execve("/bin/sed", ["/bin/sed", "s%/[^/]*$%%"], 0x17ab008 /* 22 vars */) = 0
+12267 13:16:28 +++ exited with 0 +++
+12268 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12268 13:16:28 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (Нет такого файла или каталога)
+12268 13:16:28 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+12268 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12268 13:16:28 open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+12268 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12268 13:16:28 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+12268 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12268 13:16:28 open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+12268 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12268 13:16:28 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+12268 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12268 13:16:28 open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+12268 13:16:28 statfs("/sys/fs/selinux", 0x7fffcfff70a0) = -1 ENOENT (Нет такого файла или каталога)
+12268 13:16:28 statfs("/selinux", 0x7fffcfff70a0) = -1 ENOENT (Нет такого файла или каталога)
+12268 13:16:28 open("/proc/filesystems", O_RDONLY) = 3
+12268 13:16:28 access("/etc/selinux/config", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12268 13:16:28 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+12268 13:16:28 open("/usr/lib/x86_64-linux-gnu/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (Нет такого файла или каталога)
+12268 13:16:28 open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+12268 13:16:28 +++ exited with 0 +++
+12266 13:16:28 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12267, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+12266 13:16:28 +++ exited with 0 +++
+12262 13:16:28 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12266, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+12270 13:16:28 stat(".", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12270 13:16:28 stat("/usr/lib/parsec/bin/ls", 0x7fffac6b9570) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 stat("/usr/local/sbin/ls", 0x7fffac6b9570) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 stat("/usr/local/bin/ls", 0x7fffac6b9570) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 stat("/usr/sbin/ls", 0x7fffac6b9570) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 stat("/usr/bin/ls", 0x7fffac6b9570) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 stat("/sbin/ls", 0x7fffac6b9570) = -1 ENOENT (Нет такого файла или каталога)
+12271 13:16:28 execve("/bin/sed", ["/bin/sed", "-n", "s/.*-> //p"], 0x17ab008 /* 22 vars */ <unfinished ...>
+12270 13:16:28 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=131325, ...}) = 0
+12270 13:16:28 stat("/bin/ls",  <unfinished ...>
+12271 13:16:28 <... execve resumed>)    = 0
+12270 13:16:28 <... stat resumed>{st_mode=S_IFREG|0755, st_size=131325, ...}) = 0
+12271 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12271 13:16:28 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 access("/bin/ls", X_OK <unfinished ...>
+12271 13:16:28 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+12270 13:16:28 <... access resumed>)    = 0
+12271 13:16:28 <... open resumed>)      = 3
+12270 13:16:28 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=131325, ...}) = 0
+12271 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12271 13:16:28 open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+12270 13:16:28 access("/bin/ls", R_OK)  = 0
+12270 13:16:28 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=131325, ...}) = 0
+12270 13:16:28 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=131325, ...}) = 0
+12271 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12271 13:16:28 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+12270 13:16:28 access("/bin/ls", X_OK)  = 0
+12270 13:16:28 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=131325, ...}) = 0
+12271 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12271 13:16:28 open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+12270 13:16:28 access("/bin/ls", R_OK)  = 0
+12270 13:16:28 execve("/bin/ls", ["ls", "-ld", "./clish"], 0x17ab008 /* 22 vars */ <unfinished ...>
+12271 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12271 13:16:28 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+12270 13:16:28 <... execve resumed>)    = 0
+12270 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (Нет такого файла или каталога)
+12271 13:16:28 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+12270 13:16:28 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+12271 13:16:28 <... access resumed>)    = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 <... open resumed>)      = 3
+12271 13:16:28 open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+12270 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+12270 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+12271 13:16:28 statfs("/sys/fs/selinux", 0x7ffdf68ff180) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+12271 13:16:28 statfs("/selinux",  <unfinished ...>
+12270 13:16:28 <... access resumed>)    = -1 ENOENT (Нет такого файла или каталога)
+12271 13:16:28 <... statfs resumed>0x7ffdf68ff180) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+12271 13:16:28 open("/proc/filesystems", O_RDONLY) = 3
+12271 13:16:28 access("/etc/selinux/config", F_OK <unfinished ...>
+12270 13:16:28 access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+12271 13:16:28 <... access resumed>)    = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 <... access resumed>)    = -1 ENOENT (Нет такого файла или каталога)
+12271 13:16:28 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+12270 13:16:28 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+12271 13:16:28 open("/usr/lib/x86_64-linux-gnu/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (Нет такого файла или каталога)
+12271 13:16:28 open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+12270 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+12270 13:16:28 statfs("/sys/fs/selinux", 0x7ffd15d16930) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 statfs("/selinux", 0x7ffd15d16930) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 open("/proc/filesystems", O_RDONLY) = 3
+12270 13:16:28 access("/etc/selinux/config", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+12270 13:16:28 open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+12270 13:16:28 open("/usr/share/locale/ru_RU.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 open("/usr/share/locale/ru_RU.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 open("/usr/share/locale/ru_RU/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 open("/usr/share/locale/ru.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 open("/usr/share/locale/ru.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 open("/usr/share/locale/ru/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога)
+12270 13:16:28 open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+12270 13:16:28 lstat("./clish", {st_mode=S_IFREG|0755, st_size=6274, ...}) = 0
+12270 13:16:28 lgetxattr("./clish", "security.selinux", 0x5dc8d6b9f7f0, 255) = -1 ENODATA (Нет доступных данных)
+12270 13:16:28 getxattr("./clish", "system.posix_acl_access", NULL, 0) = -1 ENODATA (Нет доступных данных)
+12270 13:16:28 open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+12270 13:16:28 +++ exited with 0 +++
+12271 13:16:28 +++ exited with 0 +++
+12269 13:16:28 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12270, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+12269 13:16:28 +++ exited with 0 +++
+12262 13:16:28 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12269, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+12272 13:16:28 stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+12272 13:16:28 stat("/home/admin1", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12272 13:16:28 stat("/home/admin1/klish-2.1.3", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12272 13:16:28 stat("/home/admin1/klish-2.1.3/bin", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12272 13:16:28 chdir("/home/admin1/klish-2.1.3/bin") = 0
+12272 13:16:28 stat(".", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12272 13:16:28 stat("/home/admin1/klish-2.1.3/bin", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12272 13:16:28 +++ exited with 0 +++
+12262 13:16:28 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12272, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+12262 13:16:28 stat("/home/admin1/klish-2.1.3/bin/.libs/clish", {st_mode=S_IFREG|0755, st_size=49912, ...}) = 0
+12275 13:16:28 execve("/bin/sed", ["/bin/sed", "s/::*$//"], 0x17ab008 /* 22 vars */) = 0
+12274 13:16:28 +++ exited with 0 +++
+12275 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12275 13:16:28 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (Нет такого файла или каталога)
+12275 13:16:28 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+12275 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12275 13:16:28 open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+12275 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12275 13:16:28 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+12275 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12275 13:16:28 open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+12275 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12275 13:16:28 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+12275 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12275 13:16:28 open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+12275 13:16:28 statfs("/sys/fs/selinux", 0x7ffcc80aa910) = -1 ENOENT (Нет такого файла или каталога)
+12275 13:16:28 statfs("/selinux", 0x7ffcc80aa910) = -1 ENOENT (Нет такого файла или каталога)
+12275 13:16:28 open("/proc/filesystems", O_RDONLY) = 3
+12275 13:16:28 access("/etc/selinux/config", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12275 13:16:28 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+12275 13:16:28 open("/usr/lib/x86_64-linux-gnu/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (Нет такого файла или каталога)
+12275 13:16:28 open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+12275 13:16:28 +++ exited with 0 +++
+12273 13:16:28 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12274, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+12273 13:16:28 +++ exited with 0 +++
+12262 13:16:28 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12273, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+12262 13:16:28 execve("/home/admin1/klish-2.1.3/bin/.libs/clish", ["/home/admin1/klish-2.1.3/bin/.li"..., "-x", "../xml-examples/clish"], 0x17ab008 /* 22 vars */) = 0
+12262 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/home/admin1/klish-2.1.3/.libs/tls/x86_64/libclish.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 stat("/home/admin1/klish-2.1.3/.libs/tls/x86_64", 0x7ffee500d740) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/home/admin1/klish-2.1.3/.libs/tls/libclish.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 stat("/home/admin1/klish-2.1.3/.libs/tls", 0x7ffee500d740) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/home/admin1/klish-2.1.3/.libs/x86_64/libclish.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 stat("/home/admin1/klish-2.1.3/.libs/x86_64", 0x7ffee500d740) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/home/admin1/klish-2.1.3/.libs/libclish.so.1", O_RDONLY|O_CLOEXEC) = 3
+12262 13:16:28 open("/home/admin1/klish-2.1.3/.libs/libkonf.so.1", O_RDONLY|O_CLOEXEC) = 3
+12262 13:16:28 open("/home/admin1/klish-2.1.3/.libs/libtinyrl.so.1", O_RDONLY|O_CLOEXEC) = 3
+12262 13:16:28 open("/home/admin1/klish-2.1.3/.libs/liblub.so.1", O_RDONLY|O_CLOEXEC) = 3
+12262 13:16:28 open("/home/admin1/klish-2.1.3/.libs/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/home/admin1/klish-2.1.3/install/lib/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 stat("/home/admin1/klish-2.1.3/install/lib/tls/x86_64", 0x7ffee500d680) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/home/admin1/klish-2.1.3/install/lib/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 stat("/home/admin1/klish-2.1.3/install/lib/tls", 0x7ffee500d680) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/home/admin1/klish-2.1.3/install/lib/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 stat("/home/admin1/klish-2.1.3/install/lib/x86_64", 0x7ffee500d680) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/home/admin1/klish-2.1.3/install/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 stat("/home/admin1/klish-2.1.3/install/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+12262 13:16:28 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+12262 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+12262 13:16:28 open("/home/admin1/klish-2.1.3/.libs/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/home/admin1/klish-2.1.3/install/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+12262 13:16:28 open("/home/admin1/klish-2.1.3/.libs/libexpat.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/home/admin1/klish-2.1.3/.libs/libexpat.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/home/admin1/klish-2.1.3/install/lib/libexpat.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 open("/lib/x86_64-linux-gnu/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 3
+12262 13:16:28 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+12262 13:16:28 open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+12262 13:16:28 open("../xml-examples/clish", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+12262 13:16:28 open("../xml-examples/clish/debug-view.xml", O_RDONLY) = 4
+12262 13:16:28 open("../xml-examples/clish/global-commands.xml", O_RDONLY) = 4
+12262 13:16:28 open("../xml-examples/clish/root-view.xml", O_RDONLY) = 4
+12262 13:16:28 open("../xml-examples/clish/debug-commands.xml", O_RDONLY) = 4
+12262 13:16:28 open("../xml-examples/clish/startup.xml", O_RDONLY) = 4
+12262 13:16:28 open("../xml-examples/clish/clock.xml", O_RDONLY) = 4
+12262 13:16:28 open("../xml-examples/clish/types.xml", O_RDONLY) = 4
+12262 13:16:28 open("../xml-examples/clish/network-commands.xml", O_RDONLY) = 4
+12262 13:16:28 open("../xml-examples/clish/named-view.xml", O_RDONLY) = 4
+12262 13:16:28 open("../xml-examples/clish/script-view.xml", O_RDONLY) = 4
+12262 13:16:28 open("/root/.clish_history", O_RDONLY) = 3
+12262 13:16:28 open("/home/admin1/klish-2.1.3/.libs/clish_plugin_clish.so", O_RDONLY|O_CLOEXEC) = 3
+12262 13:16:28 open("/tmp/clish.lock", O_WRONLY|O_CREAT, 0644) = 4
+12262 13:16:28 lstat("/tmp/klish.fifo.12262.VU9l9Z", 0x7ffee500c960) = -1 ENOENT (Нет такого файла или каталога)
+12262 13:16:28 mknod("/tmp/klish.fifo.12262.VU9l9Z", S_IFIFO|0600) = 0
+12276 13:16:28 open("/tmp/klish.fifo.12262.VU9l9Z", O_WRONLY|O_CREAT|O_TRUNC, 0666 <unfinished ...>
+12277 13:16:28 execve("/bin/sh", ["sh", "-c", "/bin/sh /tmp/klish.fifo.12262.VU"...], 0x7ffee500e238 /* 22 vars */) = 0
+12277 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 open("/home/admin1/klish-2.1.3/.libs/tls/x86_64/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 stat("/home/admin1/klish-2.1.3/.libs/tls/x86_64", 0x7fff805bf8b0) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 open("/home/admin1/klish-2.1.3/.libs/tls/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 stat("/home/admin1/klish-2.1.3/.libs/tls", 0x7fff805bf8b0) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 open("/home/admin1/klish-2.1.3/.libs/x86_64/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 stat("/home/admin1/klish-2.1.3/.libs/x86_64", 0x7fff805bf8b0) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 open("/home/admin1/klish-2.1.3/.libs/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 stat("/home/admin1/klish-2.1.3/.libs", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+12277 13:16:28 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+12277 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 open("/lib/x86_64-linux-gnu/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 3
+12277 13:16:28 open("/home/admin1/klish-2.1.3/.libs/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+12277 13:16:28 open("/home/admin1/klish-2.1.3/.libs/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+12277 13:16:28 open("/dev/tty", O_RDWR|O_NONBLOCK) = 3
+12277 13:16:28 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+12277 13:16:28 stat("/home/admin1/klish-2.1.3/bin", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12277 13:16:28 stat(".", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12277 13:16:28 stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+12277 13:16:28 stat("/home/admin1", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12277 13:16:28 stat("/home/admin1/klish-2.1.3", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12277 13:16:28 stat("/home/admin1/klish-2.1.3/bin", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12277 13:16:28 open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+12277 13:16:28 stat(".", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12277 13:16:28 stat("/usr/lib/parsec/bin/sh", 0x7fff805bfd90) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 stat("/usr/local/sbin/sh", 0x7fff805bfd90) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 stat("/usr/local/bin/sh", 0x7fff805bfd90) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 stat("/usr/sbin/sh", 0x7fff805bfd90) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 stat("/usr/bin/sh", 0x7fff805bfd90) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 stat("/sbin/sh", 0x7fff805bfd90) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 stat("/bin/sh", {st_mode=S_IFREG|0755, st_size=1099608, ...}) = 0
+12277 13:16:28 stat("/bin/sh", {st_mode=S_IFREG|0755, st_size=1099608, ...}) = 0
+12277 13:16:28 access("/bin/sh", X_OK)  = 0
+12277 13:16:28 stat("/bin/sh", {st_mode=S_IFREG|0755, st_size=1099608, ...}) = 0
+12277 13:16:28 access("/bin/sh", R_OK)  = 0
+12277 13:16:28 stat("/bin/sh", {st_mode=S_IFREG|0755, st_size=1099608, ...}) = 0
+12277 13:16:28 stat("/bin/sh", {st_mode=S_IFREG|0755, st_size=1099608, ...}) = 0
+12277 13:16:28 access("/bin/sh", X_OK)  = 0
+12277 13:16:28 stat("/bin/sh", {st_mode=S_IFREG|0755, st_size=1099608, ...}) = 0
+12277 13:16:28 access("/bin/sh", R_OK)  = 0
+12277 13:16:28 execve("/bin/sh", ["/bin/sh", "/tmp/klish.fifo.12262.VU9l9Z"], 0xaf3008 /* 23 vars */) = 0
+12277 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 open("/home/admin1/klish-2.1.3/.libs/tls/x86_64/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 stat("/home/admin1/klish-2.1.3/.libs/tls/x86_64", 0x7fff5fedf6b0) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 open("/home/admin1/klish-2.1.3/.libs/tls/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 stat("/home/admin1/klish-2.1.3/.libs/tls", 0x7fff5fedf6b0) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 open("/home/admin1/klish-2.1.3/.libs/x86_64/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 stat("/home/admin1/klish-2.1.3/.libs/x86_64", 0x7fff5fedf6b0) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 open("/home/admin1/klish-2.1.3/.libs/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 stat("/home/admin1/klish-2.1.3/.libs", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+12277 13:16:28 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+12277 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 open("/lib/x86_64-linux-gnu/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 3
+12277 13:16:28 open("/home/admin1/klish-2.1.3/.libs/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+12277 13:16:28 open("/home/admin1/klish-2.1.3/.libs/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12277 13:16:28 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+12277 13:16:28 open("/dev/tty", O_RDWR|O_NONBLOCK) = 3
+12277 13:16:28 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+12277 13:16:28 stat("/home/admin1/klish-2.1.3/bin", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12277 13:16:28 stat(".", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12277 13:16:28 stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+12277 13:16:28 stat("/home/admin1", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12277 13:16:28 stat("/home/admin1/klish-2.1.3", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12277 13:16:28 stat("/home/admin1/klish-2.1.3/bin", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12277 13:16:28 open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+12277 13:16:28 open("/tmp/klish.fifo.12262.VU9l9Z", O_RDONLY) = 3
+12276 13:16:28 <... open resumed>)      = 5
+12277 13:16:28 stat("/tmp/klish.fifo.12262.VU9l9Z", {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+12276 13:16:28 +++ exited with 0 +++
+12278 13:16:28 stat(".", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12278 13:16:28 stat("/usr/lib/parsec/bin/whoami", 0x7fff5fedf450) = -1 ENOENT (Нет такого файла или каталога)
+12278 13:16:28 stat("/usr/local/sbin/whoami", 0x7fff5fedf450) = -1 ENOENT (Нет такого файла или каталога)
+12278 13:16:28 stat("/usr/local/bin/whoami", 0x7fff5fedf450) = -1 ENOENT (Нет такого файла или каталога)
+12278 13:16:28 stat("/usr/sbin/whoami", 0x7fff5fedf450) = -1 ENOENT (Нет такого файла или каталога)
+12278 13:16:28 stat("/usr/bin/whoami", {st_mode=S_IFREG|0755, st_size=32085, ...}) = 0
+12278 13:16:28 stat("/usr/bin/whoami", {st_mode=S_IFREG|0755, st_size=32085, ...}) = 0
+12278 13:16:28 access("/usr/bin/whoami", X_OK) = 0
+12278 13:16:28 stat("/usr/bin/whoami", {st_mode=S_IFREG|0755, st_size=32085, ...}) = 0
+12278 13:16:28 access("/usr/bin/whoami", R_OK) = 0
+12278 13:16:28 stat("/usr/bin/whoami", {st_mode=S_IFREG|0755, st_size=32085, ...}) = 0
+12278 13:16:28 stat("/usr/bin/whoami", {st_mode=S_IFREG|0755, st_size=32085, ...}) = 0
+12278 13:16:28 access("/usr/bin/whoami", X_OK) = 0
+12278 13:16:28 stat("/usr/bin/whoami", {st_mode=S_IFREG|0755, st_size=32085, ...}) = 0
+12278 13:16:28 access("/usr/bin/whoami", R_OK) = 0
+12278 13:16:28 execve("/usr/bin/whoami", ["whoami"], 0x951008 /* 23 vars */) = 0
+12278 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12278 13:16:28 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (Нет такого файла или каталога)
+12278 13:16:28 open("/home/admin1/klish-2.1.3/.libs/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12278 13:16:28 stat("/home/admin1/klish-2.1.3/.libs/tls/x86_64", 0x7ffcefe08f40) = -1 ENOENT (Нет такого файла или каталога)
+12278 13:16:28 open("/home/admin1/klish-2.1.3/.libs/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12278 13:16:28 stat("/home/admin1/klish-2.1.3/.libs/tls", 0x7ffcefe08f40) = -1 ENOENT (Нет такого файла или каталога)
+12278 13:16:28 open("/home/admin1/klish-2.1.3/.libs/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12278 13:16:28 stat("/home/admin1/klish-2.1.3/.libs/x86_64", 0x7ffcefe08f40) = -1 ENOENT (Нет такого файла или каталога)
+12278 13:16:28 open("/home/admin1/klish-2.1.3/.libs/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12278 13:16:28 stat("/home/admin1/klish-2.1.3/.libs", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+12278 13:16:28 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+12278 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12278 13:16:28 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+12278 13:16:28 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+12278 13:16:28 +++ exited with 0 +++
+12277 13:16:28 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12278, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+12279 13:16:28 stat(".", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+12279 13:16:28 stat("/usr/lib/parsec/bin/date", 0x7fff5fedf450) = -1 ENOENT (Нет такого файла или каталога)
+12279 13:16:28 stat("/usr/local/sbin/date", 0x7fff5fedf450) = -1 ENOENT (Нет такого файла или каталога)
+12279 13:16:28 stat("/usr/local/bin/date", 0x7fff5fedf450) = -1 ENOENT (Нет такого файла или каталога)
+12279 13:16:28 stat("/usr/sbin/date", 0x7fff5fedf450) = -1 ENOENT (Нет такого файла или каталога)
+12279 13:16:28 stat("/usr/bin/date", 0x7fff5fedf450) = -1 ENOENT (Нет такого файла или каталога)
+12279 13:16:28 stat("/sbin/date", 0x7fff5fedf450) = -1 ENOENT (Нет такого файла или каталога)
+12279 13:16:28 stat("/bin/date", {st_mode=S_IFREG|0755, st_size=106037, ...}) = 0
+12279 13:16:28 stat("/bin/date", {st_mode=S_IFREG|0755, st_size=106037, ...}) = 0
+12279 13:16:28 access("/bin/date", X_OK) = 0
+12279 13:16:28 stat("/bin/date", {st_mode=S_IFREG|0755, st_size=106037, ...}) = 0
+12279 13:16:28 access("/bin/date", R_OK) = 0
+12279 13:16:28 stat("/bin/date", {st_mode=S_IFREG|0755, st_size=106037, ...}) = 0
+12279 13:16:28 stat("/bin/date", {st_mode=S_IFREG|0755, st_size=106037, ...}) = 0
+12279 13:16:28 access("/bin/date", X_OK) = 0
+12279 13:16:28 stat("/bin/date", {st_mode=S_IFREG|0755, st_size=106037, ...}) = 0
+12279 13:16:28 access("/bin/date", R_OK) = 0
+12279 13:16:28 execve("/bin/date", ["date"], 0x951008 /* 23 vars */) = 0
+12279 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12279 13:16:28 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (Нет такого файла или каталога)
+12279 13:16:28 open("/home/admin1/klish-2.1.3/.libs/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12279 13:16:28 stat("/home/admin1/klish-2.1.3/.libs/tls/x86_64", 0x7fff5c8ae880) = -1 ENOENT (Нет такого файла или каталога)
+12279 13:16:28 open("/home/admin1/klish-2.1.3/.libs/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12279 13:16:28 stat("/home/admin1/klish-2.1.3/.libs/tls", 0x7fff5c8ae880) = -1 ENOENT (Нет такого файла или каталога)
+12279 13:16:28 open("/home/admin1/klish-2.1.3/.libs/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12279 13:16:28 stat("/home/admin1/klish-2.1.3/.libs/x86_64", 0x7fff5c8ae880) = -1 ENOENT (Нет такого файла или каталога)
+12279 13:16:28 open("/home/admin1/klish-2.1.3/.libs/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (Нет такого файла или каталога)
+12279 13:16:28 stat("/home/admin1/klish-2.1.3/.libs", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+12279 13:16:28 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+12279 13:16:28 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (Нет такого файла или каталога)
+12279 13:16:28 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+12279 13:16:28 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+12279 13:16:28 open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+12279 13:16:28 +++ exited with 0 +++
+12277 13:16:28 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12279, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+12277 13:16:28 +++ exited with 0 +++
+12262 13:16:28 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12276, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+12262 13:16:28 unlink("/tmp/klish.fifo.12262.VU9l9Z") = 0
+12262 13:16:47 open("/tmp/clish.lock", O_WRONLY|O_CREAT, 0644) = 4
+12262 13:16:47 open("/root/.clish_history", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+12262 13:16:47 +++ exited with 0 +++
