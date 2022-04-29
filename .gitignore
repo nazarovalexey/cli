@@ -1,1 +1,11 @@
 *.log
+**/.deps
+**/.libs
+*.o
+*.lo
+*.so
+*.la
+*.a
+bin/**
+install/**
+
