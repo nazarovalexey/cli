@@ -1,0 +1,139 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out.2004' (creator: callgrind-3.13.0)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 1137894
+Trigger: Program termination
+Profiled target:  ./clish -x ../../xml-examples/clish (PID 2004, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+       Ir 
+--------------------------------------------------------------------------------
+5,085,995  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+       Ir  file:function
+--------------------------------------------------------------------------------
+5,085,995  ???:0x0000000000000c20 [/lib/x86_64-linux-gnu/ld-2.24.so]
+4,810,277  ???:_start [/home/admin1/klish-2.1.3/bin/.libs/clish]
+4,810,266  /opt/build/glibc/glibc-2.24/csu/../csu/libc-start.c:(below main) [/lib/x86_64-linux-gnu/libc-2.24.so]
+4,810,064  /home/admin1/klish-2.1.3/bin/clish.c:main [/home/admin1/klish-2.1.3/bin/.libs/clish]
+4,808,825  /opt/build/glibc/glibc-2.24/elf/../sysdeps/x86_64/dl-trampoline.h:_dl_runtime_resolve_fxsave [/lib/x86_64-linux-gnu/ld-2.24.so]
+4,172,561  /home/admin1/klish-2.1.3/clish/shell/shell_xml.c:clish_shell_load_scheme [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+2,999,104  /home/admin1/klish-2.1.3/clish/shell/shell_xml.c:process_node.part.0'2 [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+2,361,179  /usr/include/x86_64-linux-gnu/bits/string2.h:clish_shell_load_scheme
+2,360,995  /home/admin1/klish-2.1.3/clish/shell/shell_xml.c:process_node.part.0 [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+2,350,698  /home/admin1/klish-2.1.3/clish/shell/shell_xml.c:process_clish_module [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+2,345,328  /home/admin1/klish-2.1.3/clish/shell/shell_xml.c:process_children [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+2,088,343  /home/admin1/klish-2.1.3/clish/shell/shell_ptype.c:clish_shell_find_create_ptype [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+2,078,886  /home/admin1/klish-2.1.3/clish/ptype/ptype.c:clish_ptype_new [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+2,064,951  /home/admin1/klish-2.1.3/clish/ptype/ptype.c:clish_ptype__set_pattern [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+1,986,989  /opt/build/glibc/glibc-2.24/posix/regcomp.c:regcomp [/lib/x86_64-linux-gnu/libc-2.24.so]
+1,862,773  /opt/build/glibc/glibc-2.24/elf/../sysdeps/x86_64/dl-trampoline.h:_dl_runtime_resolve_fxsave'2 [/lib/x86_64-linux-gnu/ld-2.24.so]
+1,804,763  /home/admin1/klish-2.1.3/clish/shell/shell_xml.c:process_ptype [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+1,586,801  /home/admin1/klish-2.1.3/clish/shell/shell_expat.c:clish_xmldoc_read [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+1,414,464  ???:XML_Parse [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+1,402,060  ???:XML_ParseBuffer [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+1,401,630  ???:0x000000000000b4f0 [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+1,395,360  ???:0x00000000000094a0 [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+1,352,120  ???:0x0000000000009440 [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+1,351,830  ???:0x0000000000008190 [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+1,100,831  /opt/build/glibc/glibc-2.24/posix/regcomp.c:re_compile_fastmap [/lib/x86_64-linux-gnu/libc-2.24.so]
+1,100,236  /opt/build/glibc/glibc-2.24/posix/regcomp.c:re_compile_fastmap_iter.isra.24 [/lib/x86_64-linux-gnu/libc-2.24.so]
+1,013,962  /opt/build/glibc/glibc-2.24/wcsmbs/mbrtowc.c:mbrtowc [/lib/x86_64-linux-gnu/libc-2.24.so]
+  923,677  /opt/build/glibc/glibc-2.24/malloc/malloc.c:malloc [/lib/x86_64-linux-gnu/libc-2.24.so]
+  883,716  /opt/build/glibc/glibc-2.24/posix/regcomp.c:re_compile_internal [/lib/x86_64-linux-gnu/libc-2.24.so]
+  802,023  /opt/build/glibc/glibc-2.24/posix/regcomp.c:parse_reg_exp'2 [/lib/x86_64-linux-gnu/libc-2.24.so]
+  800,259  /opt/build/glibc/glibc-2.24/posix/regcomp.c:parse_branch'2 [/lib/x86_64-linux-gnu/libc-2.24.so]
+  797,126  /opt/build/glibc/glibc-2.24/posix/regcomp.c:parse_expression'2 [/lib/x86_64-linux-gnu/libc-2.24.so]
+  704,424  /opt/build/glibc/glibc-2.24/malloc/malloc.c:_int_malloc [/lib/x86_64-linux-gnu/libc-2.24.so]
+  665,688  /home/admin1/klish-2.1.3/clish/shell/shell_xml.c:process_children'2 [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+  590,799  /opt/build/glibc/glibc-2.24/iconv/../iconv/skeleton.c:__gconv_transform_utf8_internal [/lib/x86_64-linux-gnu/libc-2.24.so]
+  511,211  /opt/build/glibc/glibc-2.24/posix/regcomp.c:parse_reg_exp [/lib/x86_64-linux-gnu/libc-2.24.so]
+  510,924  /opt/build/glibc/glibc-2.24/posix/regcomp.c:parse_branch [/lib/x86_64-linux-gnu/libc-2.24.so]
+  509,636  /opt/build/glibc/glibc-2.24/posix/regcomp.c:parse_expression [/lib/x86_64-linux-gnu/libc-2.24.so]
+  493,174  /home/admin1/klish-2.1.3/clish/shell/shell_expat.c:clish_expat_make_node [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+  460,448  /home/admin1/klish-2.1.3/clish/shell/shell_xml.c:process_command [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+  457,238  /opt/build/glibc/glibc-2.24/elf/dl-lookup.c:_dl_lookup_symbol_x [/lib/x86_64-linux-gnu/ld-2.24.so]
+  442,436  /home/admin1/klish-2.1.3/clish/shell/shell_expat.c:clish_expat_chardata_handler [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+  433,577  ???:0x0000000005686930 [???]
+  416,130  /home/admin1/klish-2.1.3/clish/shell/shell_expat.c:clish_expat_free_node'2 [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+  380,968  ???:0x0000000000007580 [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+  337,145  /opt/build/glibc/glibc-2.24/elf/dl-lookup.c:do_lookup_x [/lib/x86_64-linux-gnu/ld-2.24.so]
+  316,846  /opt/build/glibc/glibc-2.24/string/strdup.c:strdup [/lib/x86_64-linux-gnu/ld-2.24.so]
+  302,485  /home/admin1/klish-2.1.3/clish/shell/shell_xml.c:process_view [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+  288,347  /opt/build/glibc/glibc-2.24/elf/dl-reloc.c:_dl_relocate_object [/lib/x86_64-linux-gnu/ld-2.24.so]
+  272,522  /opt/build/glibc/glibc-2.24/malloc/malloc.c:free [/lib/x86_64-linux-gnu/libc-2.24.so]
+  272,383  /opt/build/glibc/glibc-2.24/elf/rtld.c:_dl_start [/lib/x86_64-linux-gnu/ld-2.24.so]
+  271,740  /opt/build/glibc/glibc-2.24/elf/../elf/dl-sysdep.c:_dl_sysdep_start [/lib/x86_64-linux-gnu/ld-2.24.so]
+  271,064  /opt/build/glibc/glibc-2.24/elf/rtld.c:dl_main [/lib/x86_64-linux-gnu/ld-2.24.so]
+  265,724  /opt/build/glibc/glibc-2.24/elf/../sysdeps/x86_64/dl-machine.h:_dl_relocate_object
+  251,594  /opt/build/glibc/glibc-2.24/elf/../elf/dl-runtime.c:_dl_fixup [/lib/x86_64-linux-gnu/ld-2.24.so]
+  248,633  ???:0x0000000000013e60 [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+  240,090  /home/admin1/klish-2.1.3/clish/shell/shell_xml.c:process_param [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+  226,618  /home/admin1/klish-2.1.3/clish/shell/shell_startup.c:clish_shell_prepare [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+  225,902  /opt/build/glibc/glibc-2.24/malloc/malloc.c:_int_free [/lib/x86_64-linux-gnu/libc-2.24.so]
+  204,780  /home/admin1/klish-2.1.3/clish/shell/shell_expat.c:clish_expat_element_start [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+  197,624  /opt/build/glibc/glibc-2.24/wcsmbs/btowc.c:btowc [/lib/x86_64-linux-gnu/libc-2.24.so]
+  193,016  /home/admin1/klish-2.1.3/clish/shell/shell_expat.c:clish_xmldoc_release [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+  192,211  /home/admin1/klish-2.1.3/clish/shell/shell_new.c:clish_shell_new [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+  191,026  /home/admin1/klish-2.1.3/clish/shell/shell_expat.c:clish_expat_free_node [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+  190,544  /home/admin1/klish-2.1.3/clish/shell/shell_new.c:clish_shell_init [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+  186,259  /opt/build/glibc/glibc-2.24/elf/dl-error.c:_dl_catch_error [/lib/x86_64-linux-gnu/ld-2.24.so]
+  172,879  /opt/build/glibc/glibc-2.24/iconv/../iconv/loop.c:__gconv_transform_utf8_internal
+  156,580  /opt/build/glibc/glibc-2.24/elf/dl-error.c:_dl_catch_error'2 [/lib/x86_64-linux-gnu/ld-2.24.so]
+  155,138  /home/admin1/klish-2.1.3/clish/shell/shell_plugin.c:clish_shell_load_plugins [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+  154,475  /home/admin1/klish-2.1.3/clish/plugin/plugin.c:clish_plugin_load [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+  145,295  ???:0x000000000000f290 [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+  134,971  /opt/build/glibc/glibc-2.24/dlfcn/dlerror.c:_dlerror_run [/lib/x86_64-linux-gnu/libdl-2.24.so]
+  132,314  /opt/build/glibc/glibc-2.24/dlfcn/dlopen.c:dlopen@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libdl-2.24.so]
+  132,193  /opt/build/glibc/glibc-2.24/dlfcn/dlopen.c:dlopen_doit [/lib/x86_64-linux-gnu/libdl-2.24.so]
+  132,164  /opt/build/glibc/glibc-2.24/elf/dl-open.c:_dl_open [/lib/x86_64-linux-gnu/ld-2.24.so]
+  132,022  /opt/build/glibc/glibc-2.24/elf/dl-open.c:dl_open_worker [/lib/x86_64-linux-gnu/ld-2.24.so]
+  127,769  /opt/build/glibc/glibc-2.24/posix/regcomp.c:calc_eclosure_iter [/lib/x86_64-linux-gnu/libc-2.24.so]
+  111,010  /opt/build/glibc/glibc-2.24/elf/dl-misc.c:_dl_name_match_p [/lib/x86_64-linux-gnu/ld-2.24.so]
+  108,808  /opt/build/glibc/glibc-2.24/locale/coll-lookup.c:__collseq_table_lookup [/lib/x86_64-linux-gnu/libc-2.24.so]
+  102,528  /opt/build/glibc/glibc-2.24/string/../sysdeps/x86_64/multiarch/../strcmp.S:strcmp [/lib/x86_64-linux-gnu/ld-2.24.so]
+  101,318  ???:0x000000000001a2f0 [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+  100,836  /opt/build/glibc/glibc-2.24/malloc/malloc.c:realloc [/lib/x86_64-linux-gnu/libc-2.24.so]
+   97,036  ???:XML_ParserCreate [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+   97,006  ???:XML_ParserCreate_MM [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+   92,591  /opt/build/glibc/glibc-2.24/locale/setlocale.c:setlocale [/lib/x86_64-linux-gnu/libc-2.24.so]
+   90,949  ???:0x0000000000004c30 [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+   90,589  /opt/build/glibc/glibc-2.24/malloc/malloc.c:malloc_consolidate [/lib/x86_64-linux-gnu/libc-2.24.so]
+   86,906  /opt/build/glibc/glibc-2.24/locale/findlocale.c:_nl_find_locale [/lib/x86_64-linux-gnu/libc-2.24.so]
+   86,862  ???:0x0000000000004cb0 [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+   84,985  /opt/build/glibc/glibc-2.24/stdio-common/snprintf.c:snprintf [/lib/x86_64-linux-gnu/libc-2.24.so]
+   84,771  /opt/build/glibc/glibc-2.24/elf/dl-deps.c:_dl_map_object_deps [/lib/x86_64-linux-gnu/ld-2.24.so]
+   82,441  /opt/build/glibc/glibc-2.24/libio/vsnprintf.c:vsnprintf [/lib/x86_64-linux-gnu/libc-2.24.so]
+   80,590  /home/admin1/klish-2.1.3/clish/shell/shell_expat.c:clish_xmlnode_get_name [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+   77,140  ???:0x0000000000005570 [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+   76,665  /opt/build/glibc/glibc-2.24/elf/dl-load.c:_dl_map_object [/lib/x86_64-linux-gnu/ld-2.24.so]
+   75,825  /opt/build/glibc/glibc-2.24/stdio-common/vfprintf.c:vfprintf [/lib/x86_64-linux-gnu/libc-2.24.so]
+   72,941  /opt/build/glibc/glibc-2.24/posix/regex_internal.c:re_compile_internal
+   72,620  /opt/build/glibc/glibc-2.24/locale/loadarchive.c:_nl_load_locale_from_archive [/lib/x86_64-linux-gnu/libc-2.24.so]
+   70,629  /opt/build/glibc/glibc-2.24/elf/dl-deps.c:openaux [/lib/x86_64-linux-gnu/ld-2.24.so]
+   69,447  /home/admin1/klish-2.1.3/clish/shell/shell_xml.c:process_action [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+   69,014  ???:0x0000000000005130 [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+   67,663  /opt/build/glibc/glibc-2.24/posix/regcomp.c:calc_eclosure_iter'2 [/lib/x86_64-linux-gnu/libc-2.24.so]
+   63,562  /home/admin1/klish-2.1.3/lub/string/string.c:lub_string_dup [/home/admin1/klish-2.1.3/install/lib/liblub.so.1.0.0]
+   60,174  /opt/build/glibc/glibc-2.24/intl/../intl/l10nflist.c:_nl_normalize_codeset [/lib/x86_64-linux-gnu/libc-2.24.so]
+   60,022  /opt/build/glibc/glibc-2.24/malloc/hooks.c:malloc_hook_ini [/lib/x86_64-linux-gnu/libc-2.24.so]
+   59,310  /opt/build/glibc/glibc-2.24/posix/regex_internal.c:re_acquire_state_context [/lib/x86_64-linux-gnu/libc-2.24.so]
+   58,930  /opt/build/glibc/glibc-2.24/malloc/arena.c:ptmalloc_init.part.5 [/lib/x86_64-linux-gnu/libc-2.24.so]
+   58,553  /opt/build/glibc/glibc-2.24/elf/dl-addr.c:_dl_addr [/lib/x86_64-linux-gnu/libc-2.24.so]
+   56,681  /opt/build/glibc/glibc-2.24/string/../sysdeps/x86_64/multiarch/strcmp-sse2-unaligned.S:__strcmp_sse2_unaligned [/lib/x86_64-linux-gnu/libc-2.24.so]
+   56,216  /home/admin1/klish-2.1.3/clish/shell/shell_expat.c:clish_xmlnode_fetch_attr [/home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0]
+   52,175  /opt/build/glibc/glibc-2.24/posix/regex_internal.c:build_wcs_buffer [/lib/x86_64-linux-gnu/libc-2.24.so]
+   51,856  ???:XML_ParserFree [/lib/x86_64-linux-gnu/libexpat.so.1.6.2]
+   50,337  /opt/build/glibc/glibc-2.24/posix/regcomp.c:postorder [/lib/x86_64-linux-gnu/libc-2.24.so]
+
