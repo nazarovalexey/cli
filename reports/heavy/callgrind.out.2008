@@ -18,8 +18,8 @@ events: Ir
 summary: 5862107
 
 
-ob=(11) /home/admin1/klish-2.1.3/bin/.libs/clish
-fl=(77) /home/admin1/klish-2.1.3/bin/clish.c
+ob=(11) /home/ykuznetsov/klish-2.1.3/bin/.libs/clish
+fl=(77) /home/ykuznetsov/klish-2.1.3/bin/clish.c
 fn=(370) main
 51 2
 +91 1
@@ -327,13 +327,13 @@ cfn=(344) (below main)
 calls=1 134 
 0 5586378
 
-ob=(12) /home/admin1/klish-2.1.3/install/lib/clish_plugin_clish.so
-fl=(247) /home/admin1/klish-2.1.3/plugins/clish/sym_script.c
+ob=(12) /home/ykuznetsov/klish-2.1.3/install/lib/clish_plugin_clish.so
+fl=(247) /home/ykuznetsov/klish-2.1.3/plugins/clish/sym_script.c
 fn=(3684) clish_script
 26 16
 +1 2
-cob=(10) /home/admin1/klish-2.1.3/install/lib/libclish.so.1.0.0
-cfi=(243) /home/admin1/klish-2.1.3/clish/shell/context.c
+cob=(10) /home/ykuznetsov/klish-2.1.3/install/lib/libclish.so.1.0.0
+cfi=(243) /home/ykuznetsov/klish-2.1.3/clish/shell/context.c
 cfn=(3582) clish_context__get_shell
 calls=2 +31 
 * 4
@@ -354,7 +354,7 @@ calls=2 +75
 +4 4
 +1 4
 cob=(10)
-cfi=(192) /home/admin1/klish-2.1.3/clish/action/action.c
+cfi=(192) /home/ykuznetsov/klish-2.1.3/clish/action/action.c
 cfn=(3692) clish_action__get_shebang
 calls=2 +57 
 * 4
@@ -364,7 +364,7 @@ calls=2 +57
 +1 2
 +10 10
 cob=(10)
-cfi=(244) /home/admin1/klish-2.1.3/clish/shell/shell_execute.c
+cfi=(244) /home/ykuznetsov/klish-2.1.3/clish/shell/shell_execute.c
 cfn=(3700) clish_shell_mkfifo
 calls=2 401 
 * 4622
@@ -420,8 +420,8 @@ calls=1 -48
 * 5
 * 1
 +5 4
-cob=(7) /home/admin1/klish-2.1.3/install/lib/liblub.so.1.0.0
-cfi=(124) /home/admin1/klish-2.1.3/lub/string/string.c
+cob=(7) /home/ykuznetsov/klish-2.1.3/install/lib/liblub.so.1.0.0
+cfi=(124) /home/ykuznetsov/klish-2.1.3/lub/string/string.c
 cfn=(800) lub_string_cat
 calls=1 +54 
 * 265
@@ -481,7 +481,7 @@ calls=1 421
 +1 7
 -54 4
 cob=(10)
-cfi=(225) /home/admin1/klish-2.1.3/clish/shell/shell_startup.c
+cfi=(225) /home/ykuznetsov/klish-2.1.3/clish/shell/shell_startup.c
 cfn=(3696) clish_shell__get_default_shebang
 calls=2 +34 
 * 8
@@ -494,12 +494,12 @@ fl=(229) ???
 fn=(3252) 0x00000000000023b0
 0 17
 
-fl=(232) /home/admin1/klish-2.1.3/plugins/clish/builtin_init.c
+fl=(232) /home/ykuznetsov/klish-2.1.3/plugins/clish/builtin_init.c
 fn=(3278) clish_plugin_clish_init
 13 2
 +2 5
 cob=(10)
-cfi=(123) /home/admin1/klish-2.1.3/clish/plugin/plugin.c
+cfi=(123) /home/ykuznetsov/klish-2.1.3/clish/plugin/plugin.c
 cfn=(3282) clish_plugin_add_phook
 calls=1 282 
 * 2640
@@ -590,7 +590,7 @@ calls=1 244
 * 1
 +5 3
 
-fl=(257) /home/admin1/klish-2.1.3/plugins/clish/hook_config.c
+fl=(257) /home/ykuznetsov/klish-2.1.3/plugins/clish/hook_config.c
 fn=(3766) clish_hook_config
 41 8
 +1 1
@@ -619,7 +619,7 @@ calls=1 +30
 -5 2
 +5 1
 cob=(10)
-cfi=(212) /home/admin1/klish-2.1.3/clish/shell/shell_pwd.c
+cfi=(212) /home/ykuznetsov/klish-2.1.3/clish/shell/shell_pwd.c
 cfn=(3772) clish_shell__get_client
 calls=1 170 
 * 2
@@ -629,7 +629,7 @@ calls=1 170
 +1 1
 +3 2
 cob=(10)
-cfi=(189) /home/admin1/klish-2.1.3/clish/command/command.c
+cfi=(189) /home/ykuznetsov/klish-2.1.3/clish/command/command.c
 cfn=(3776) clish_command__get_config
 calls=1 253 
 * 2
@@ -638,7 +638,7 @@ calls=1 253
 -1 1
 +1 1
 cob=(10)
-cfi=(193) /home/admin1/klish-2.1.3/clish/config/config.c
+cfi=(193) /home/ykuznetsov/klish-2.1.3/clish/config/config.c
 cfn=(3780) clish_config__get_op
 calls=1 +11 
 * 2
@@ -712,7 +712,7 @@ fn=(3248) 0x0000000005c31de8
 0 6
 
 ob=(10)
-fl=(119) /home/admin1/klish-2.1.3/clish/view/view.c
+fl=(119) /home/ykuznetsov/klish-2.1.3/clish/view/view.c
 fn=(3910) clish_view__get_prompt
 365 1
 +1 1
@@ -744,7 +744,7 @@ fn=(4070) clish_view_find_next_completion
 +28 80
 -28 80
 cob=(7)
-cfi=(210) /home/admin1/klish-2.1.3/lub/argv/argv.c
+cfi=(210) /home/ykuznetsov/klish-2.1.3/lub/argv/argv.c
 cfn=(2918) lub_argv_new
 calls=80 52 
 * 43508
@@ -765,7 +765,7 @@ calls=80 -88
 -10 408
 +14 204
 cob=(7)
-cfi=(237) /home/admin1/klish-2.1.3/lub/bintree/bintree_findnext.c
+cfi=(237) /home/ykuznetsov/klish-2.1.3/lub/bintree/bintree_findnext.c
 cfn=(3420) lub_bintree_findnext
 calls=67 39 
 * 38755
@@ -848,7 +848,7 @@ calls=34 90
 +18 720
 -12 160
 cob=(7)
-cfi=(115) /home/admin1/klish-2.1.3/lub/list/list.c
+cfi=(115) /home/ykuznetsov/klish-2.1.3/lub/list/list.c
 cfn=(4096) lub_list__get_tail
 calls=79 44 
 * 158
@@ -868,7 +868,7 @@ calls=24 66
 * 24
 * 48
 cob=(7)
-cfi=(195) /home/admin1/klish-2.1.3/lub/ctype/ctype.c
+cfi=(195) /home/ykuznetsov/klish-2.1.3/lub/ctype/ctype.c
 cfn=(4120) lub_ctype_isspace
 calls=23 16 
 * 299
@@ -986,7 +986,7 @@ calls=1 -66
 +3 81
 +2 78
 cob=(7)
-cfi=(170) /home/admin1/klish-2.1.3/lub/bintree/bintree_insert.c
+cfi=(170) /home/ykuznetsov/klish-2.1.3/lub/bintree/bintree_insert.c
 cfn=(960) lub_bintree_insert
 calls=26 -97 
 * 7256
@@ -998,7 +998,7 @@ fn=(2418) clish_view_find_command
 222 448
 +4 56
 cob=(7)
-cfi=(151) /home/admin1/klish-2.1.3/lub/bintree/bintree_find.c
+cfi=(151) /home/ykuznetsov/klish-2.1.3/lub/bintree/bintree_find.c
 cfn=(770) lub_bintree_find
 calls=56 37 
 * 37390
@@ -1045,7 +1045,7 @@ calls=5 +99
 +1 5
 +3 5
 cob=(7)
-cfi=(153) /home/admin1/klish-2.1.3/lub/bintree/bintree_node_init.c
+cfi=(153) /home/ykuznetsov/klish-2.1.3/lub/bintree/bintree_node_init.c
 cfn=(788) lub_bintree_node_init
 calls=5 -13 
 * 25
@@ -1063,7 +1063,7 @@ calls=1 +18
 * 9
 * 25
 cob=(7)
-cfi=(120) /home/admin1/klish-2.1.3/lub/bintree/bintree_init.c
+cfi=(120) /home/ykuznetsov/klish-2.1.3/lub/bintree/bintree_init.c
 cfn=(546) lub_bintree_init
 calls=5 -7 
 * 25
@@ -1088,7 +1088,7 @@ calls=1 +7
 * 827
 * 9
 +3 5
-cfi=(190) /home/admin1/klish-2.1.3/clish/hotkey/hotkey.c
+cfi=(190) /home/ykuznetsov/klish-2.1.3/clish/hotkey/hotkey.c
 cfn=(2376) clish_hotkeyv_new
 calls=4 +60 
 * 509
@@ -1253,7 +1253,7 @@ calls=1 71
 
 fn=(4256)
 356 6
-cfi=(191) /home/admin1/klish-2.1.3/clish/param/param.c
+cfi=(191) /home/ykuznetsov/klish-2.1.3/clish/param/param.c
 cfn=(4262) clish_paramv__get_count
 calls=2 +37 
 * 4
@@ -1620,11 +1620,11 @@ fn=(3692)
 99 2
 +1 2
 
-fl=(266) /home/admin1/klish-2.1.3/clish/shell/shell_parse.c
+fl=(266) /home/ykuznetsov/klish-2.1.3/clish/shell/shell_parse.c
 fn=(4422) clish_shell_parse
 16 20
 +7 2
-cfi=(263) /home/admin1/klish-2.1.3/clish/shell/shell_command.c
+cfi=(263) /home/ykuznetsov/klish-2.1.3/clish/shell/shell_command.c
 cfn=(4132) clish_shell_resolve_command
 calls=2 -2 
 * 7717
@@ -1635,7 +1635,7 @@ calls=2 -2
 -1 2
 +6 2
 -1 1
-cfi=(258) /home/admin1/klish-2.1.3/clish/pargv/pargv.c
+cfi=(258) /home/ykuznetsov/klish-2.1.3/clish/pargv/pargv.c
 cfn=(4284) clish_pargv_new
 calls=1 +43 
 * 113
@@ -1984,7 +1984,7 @@ fn=(4058) clish_shell_iterator_init
 fn=(4132)
 21 65
 +4 13
-cfi=(188) /home/admin1/klish-2.1.3/clish/shell/shell_view.c
+cfi=(188) /home/ykuznetsov/klish-2.1.3/clish/shell/shell_view.c
 cfn=(3600) clish_shell__get_view
 calls=13 +18 
 * 117
@@ -2213,7 +2213,7 @@ calls=1 -69
 * 8
 * 8
 +1 16
-cfi=(121) /home/admin1/klish-2.1.3/clish/ptype/ptype.c
+cfi=(121) /home/ykuznetsov/klish-2.1.3/clish/ptype/ptype.c
 cfn=(4366) clish_ptype_word_generator
 calls=3 +70 
 * 3170
@@ -2345,7 +2345,7 @@ calls=1 +35
 * 5
 +2 3
 cob=(7)
-cfi=(234) /home/admin1/klish-2.1.3/lub/bintree/bintree_findfirst.c
+cfi=(234) /home/ykuznetsov/klish-2.1.3/lub/bintree/bintree_findfirst.c
 cfn=(3362) lub_bintree_findfirst
 calls=1 +2 
 * 38
@@ -2540,7 +2540,7 @@ fn=(3842)
 +1 2
 +1 2
 +2 2
-cfi=(122) /home/admin1/klish-2.1.3/clish/var/var.c
+cfi=(122) /home/ykuznetsov/klish-2.1.3/clish/var/var.c
 cfn=(558) clish_var_bt_offset
 calls=2 +41 
 * 4
@@ -2681,7 +2681,7 @@ calls=5 40
 -1 5
 +1 15
 cob=(7)
-cfi=(235) /home/admin1/klish-2.1.3/lub/bintree/bintree_iterator_init.c
+cfi=(235) /home/ykuznetsov/klish-2.1.3/lub/bintree/bintree_iterator_init.c
 cfn=(3370) lub_bintree_iterator_init
 calls=5 43 
 * 204
@@ -2689,7 +2689,7 @@ calls=5 43
 * 10
 +1 52
 cob=(7)
-cfi=(236) /home/admin1/klish-2.1.3/lub/bintree/bintree_iterator_next.c
+cfi=(236) /home/ykuznetsov/klish-2.1.3/lub/bintree/bintree_iterator_next.c
 cfn=(3414) lub_bintree_iterator_next
 calls=25 34 
 * 24274
@@ -2958,7 +2958,7 @@ calls=1 -24
 * 711
 * 29
 * 75
-cfi=(150) /home/admin1/klish-2.1.3/clish/shell/shell_ptype.c
+cfi=(150) /home/ykuznetsov/klish-2.1.3/clish/shell/shell_ptype.c
 cfn=(3438) clish_shell_find_ptype
 calls=24 -82 
 * 6418
@@ -2995,7 +2995,7 @@ calls=1 -32
 * 29
 +3 125
 
-fl=(240) /home/admin1/klish-2.1.3/clish/shell/shell_file.c
+fl=(240) /home/ykuznetsov/klish-2.1.3/clish/shell/shell_file.c
 fn=(3486) clish_shell_push_fd
 65 3
 cfn=(3488) clish_shell_push
@@ -3034,13 +3034,13 @@ calls=1 +38
 +3 7
 -12 2
 
-fl=(172) /home/admin1/klish-2.1.3/clish/shell/shell_xml.c
+fl=(172) /home/ykuznetsov/klish-2.1.3/clish/shell/shell_xml.c
 fn=(2392) process_view
 318 35
 +4 5
 -4 10
 +4 10
-cfi=(171) /home/admin1/klish-2.1.3/clish/shell/shell_expat.c
+cfi=(171) /home/ykuznetsov/klish-2.1.3/clish/shell/shell_expat.c
 cfn=(2398) clish_xmlnode_fetch_attr
 calls=4 459 
 * 164
@@ -3316,7 +3316,7 @@ calls=58 -5
 
 fn=(2468) process_action
 836 42
-fi=(194) /home/admin1/klish-2.1.3/clish/shell/xmlapi.h
+fi=(194) /home/ykuznetsov/klish-2.1.3/clish/shell/xmlapi.h
 132 21
 fe=(172)
 836 105
@@ -3450,7 +3450,7 @@ calls=21 2954
 * 21
 +2 42
 +1 16
-cfi=(199) /home/admin1/klish-2.1.3/clish/shell/shell_plugin.c
+cfi=(199) /home/ykuznetsov/klish-2.1.3/clish/shell/shell_plugin.c
 cfn=(2662) clish_shell_add_unresolved_sym
 calls=3 179 
 * 4964
@@ -5363,12 +5363,12 @@ calls=3 67
 * 3
 * 3
 
-fl=(262) /home/admin1/klish-2.1.3/clish/shell/shell_wdog.c
+fl=(262) /home/ykuznetsov/klish-2.1.3/clish/shell/shell_wdog.c
 fn=(4022) clish_shell_keypress_fn
 34 118
 +1 59
-cob=(8) /home/admin1/klish-2.1.3/install/lib/libtinyrl.so.1.0.0
-cfi=(126) /home/admin1/klish-2.1.3/tinyrl/tinyrl.c
+cob=(8) /home/ykuznetsov/klish-2.1.3/install/lib/libtinyrl.so.1.0.0
+cfi=(126) /home/ykuznetsov/klish-2.1.3/tinyrl/tinyrl.c
 cfn=(4028) tinyrl__get_context
 calls=58 1450 
 * 116
@@ -5774,7 +5774,7 @@ fn=(4316)
 103 46
 +2 46
 
-fl=(118) /home/admin1/klish-2.1.3/clish/shell/shell_new.c
+fl=(118) /home/ykuznetsov/klish-2.1.3/clish/shell/shell_new.c
 fn=(526) clish_shell_new
 201 6
 +1 1
@@ -5979,7 +5979,7 @@ calls=1 -18
 +3 2
 +2 7
 
-fl=(259) /home/admin1/klish-2.1.3/clish/shell/shell_loop.c
+fl=(259) /home/ykuznetsov/klish-2.1.3/clish/shell/shell_loop.c
 fn=(3884) clish_shell_loop
 17 3
 +4 3
@@ -6407,7 +6407,7 @@ calls=1 -99
 * 7
 * 3
 
-fl=(245) /home/admin1/klish-2.1.3/clish/shell/shell_var.c
+fl=(245) /home/ykuznetsov/klish-2.1.3/clish/shell/shell_var.c
 fn=(3922) clish_shell_expand_var
 486 6
 cfn=(3928) clish_shell_expand_var_ex
@@ -7174,7 +7174,7 @@ calls=13 111
 * 13
 +3 65
 
-fl=(125) /home/admin1/klish-2.1.3/clish/shell/shell_tinyrl.c
+fl=(125) /home/ykuznetsov/klish-2.1.3/clish/shell/shell_tinyrl.c
 fn=(3038) clish_shell__stifle_history
 617 2
 cob=(1)
@@ -9260,7 +9260,7 @@ calls=5 2917
 +3 10
 
 ob=(8)
-fl=(127) /home/admin1/klish-2.1.3/tinyrl/vt100/vt100.c
+fl=(127) /home/ykuznetsov/klish-2.1.3/tinyrl/vt100/vt100.c
 fn=(598) tinyrl_vt100_new
 231 3
 +3 1
@@ -10270,8 +10270,8 @@ calls=1 400
 * 2
 * 1
 
-ob=(9) /home/admin1/klish-2.1.3/install/lib/libkonf.so.1.0.0
-fl=(213) /home/admin1/klish-2.1.3/konf/net/net.c
+ob=(9) /home/ykuznetsov/klish-2.1.3/install/lib/libkonf.so.1.0.0
+fl=(213) /home/ykuznetsov/klish-2.1.3/konf/net/net.c
 fn=(2998) konf_client_new
 31 3
 +3 3
@@ -10303,7 +10303,7 @@ fn=(320) 0x0000000000002790
 0 17
 
 ob=(7)
-fl=(152) /home/admin1/klish-2.1.3/lub/bintree/bintree_splay.c
+fl=(152) /home/ykuznetsov/klish-2.1.3/lub/bintree/bintree_splay.c
 fn=(776) lub_bintree_splay
 76 3636
 +6 2316
@@ -10747,7 +10747,7 @@ fl=(67) ???
 fn=(296) 0x00000000000031d0
 0 17
 
-fl=(132) /home/admin1/klish-2.1.3/lub/db/db.c
+fl=(132) /home/ykuznetsov/klish-2.1.3/lub/db/db.c
 fn=(680) lub_db_getpwuid
 47 4
 +8 1
@@ -11556,7 +11556,7 @@ fn=(4462) tinyrl__get_isatty
 1519 1
 +1 1
 
-fl=(130) /home/admin1/klish-2.1.3/tinyrl/history/history.c
+fl=(130) /home/ykuznetsov/klish-2.1.3/tinyrl/history/history.c
 fn=(4482) remove_entries.isra.2
 110 4
 +4 3
@@ -11694,7 +11694,7 @@ fn=(3136) insert_entry
 73 30
 +2 30
 -1 10
-cfi=(223) /home/admin1/klish-2.1.3/tinyrl/history/history_entry.c
+cfi=(223) /home/ykuznetsov/klish-2.1.3/tinyrl/history/history_entry.c
 cfn=(3142) tinyrl_history_entry_new
 calls=9 -46 
 * 4252
@@ -12064,7 +12064,7 @@ calls=4 -54
 -1 19
 +2 38
 
-fl=(173) /home/admin1/klish-2.1.3/lub/system/system_file.c
+fl=(173) /home/ykuznetsov/klish-2.1.3/lub/system/system_file.c
 fn=(978) lub_system_tilde_expand
 16 10
 +1 2

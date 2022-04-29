@@ -1,0 +1,28 @@
+3. /home/ykuznetsov/klish-2.1.3/tinyrl/tinyrl.c:internal_readline  # path from the this root to leaf(s)
+\|/
+/home/ykuznetsov/klish-2.1.3/tinyrl/tinyrl.c:tinyrl_key_tab
+\|/
+/home/ykuznetsov/klish-2.1.3/tinyrl/tinyrl.c:tinyrl_complete_with_extensions
+\|/
+/home/ykuznetsov/klish-2.1.3/tinyrl/tinyrl.c:tinyrl_do_complete
+\|/
+/home/ykuznetsov/klish-2.1.3/clish/shell/shell_tinyrl.c:clish_shell_tinyrl_completion
+\|/
+/home/ykuznetsov/klish-2.1.3/clish/shell/shell_command.c:clish_shell_resolve_command (100)
+/home/ykuznetsov/klish-2.1.3/clish/shell/shell_command.c:clish_shell_find_next_completion (500)
+\|/
+/home/ykuznetsov/klish-2.1.3/clish/view/view.c:clish_view_find_next_completion
+\|/
+/home/ykuznetsov/klish-2.1.3/lub/bintree/bintree_findnext.c:lub_bintree_findnext
+\|/
+/home/ykuznetsov/klish-2.1.3/lub/bintree/bintree_splay.c:lub_bintree_splay
+\|/
+/home/ykuznetsov/klish-2.1.3/clish/command/command.c:clish_command_bt_compare
+\|/
+/home/ykuznetsov/klish-2.1.3/clish/command/command.c:lub_string_nocasecmp
+\|/
+/home/ykuznetsov/klish-2.1.3/lub/string/string.c:lub_string_nocasecmp
+\|/
+
+
+

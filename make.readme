@@ -1,8 +1,14 @@
 
-
+# make
 ./configure --prefix=$HOME/klish-2.1.3/install CFLAGS='-O2 -g' --with-libexpat=/lib/x86_64-linux-gnu/
 make -j 8
 make install
 
+# test
+./clish -x ../../xml-examples/clish
+
+# valgrind && callgrind
+valgrind --tool=callgrind ./clish -x ../../xml-examples/clish
+callgrind_annotate --inclusive=yes --tree=calling callgrind.out.24003
 
 
