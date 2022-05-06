@@ -1,0 +1,1 @@
+gdb -quiet -command=gdb.cmd ../bin/.libs/clish -pid=2686

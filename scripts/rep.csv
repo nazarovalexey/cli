@@ -1,0 +1,10 @@
+b'\x03'	b'\n> '	0
+b'\t'	b'\nclock      debug      exit       help       history    logout     named-view\nparams     ping       script     tcl        top        traceroute \n> '	0
+b'debug\n'	b'debug\nEntering debug mode...\ndebug> '	4
+b'top\n'	b'top\n> '	1
+b'clock\t\t'	b'clock \nset      timezone \n> clock '	1
+b'\x03'	b'\n> '	0
+b'\t'	b'\nclock      debug      exit       help       history    logout     named-view\nparams     ping       script     tcl        top        traceroute \n> '	0
+b'\t'	b'\nclock      debug      exit       help       history    logout     named-view\nparams     ping       script     tcl        top        traceroute \n> '	0
+
+max = 4 ms, total = 6 ms
